@@ -1,0 +1,51 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "General",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "dashboard",
+      "submenu": [
+        {
+          "url": "account",
+          "name": "Profile",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Activities"
+    },
+    {
+      "url": "/",
+      "name": "Resevations",
+      "icon": "menu-icon tf-icons bx bx-calendar",
+      "slug": "dashboard",
+      "submenu": [
+        {
+          "url": "account/reservations",
+          "name": "Réservations",
+          "icon": "menu-icon tf-icons bx bx-calendar-check",
+          "slug": "user-reservations"
+        },
+        {
+          "url": "account/reviews",
+          "name": "Mes avis",
+          "icon": "menu-icon tf-icons bx bx-star",
+          "slug": "own-reviews"
+        }
+      ]
+    },
+
+    {
+      "menuHeader": "Help Desk"
+    },
+
+    {
+      "name": "Support",
+      "icon": "menu-icon tf-icons bx bx-support",
+      "slug": "support",
+      "url": "/"
+    }
+  ]
+}

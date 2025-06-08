@@ -1,0 +1,144 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Tableau de bord",
+      "icon": "menu-icon tf-icons bx bx-home-smile",
+      "slug": "dashboard",
+      "submenu": [
+        {
+          "url": "/admin",
+          "name": "Analytiques",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+    {
+      "name": "Utilisateurs",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "users",
+      "submenu": [
+        {
+          "url": "admin/users/list",
+          "name": "Liste des utilisateurs",
+          "slug": "users-list"
+        },
+        {
+          "url": "admin/users/add",
+          "name": "Ajouter un utilisateur",
+          "slug": "users-add"
+        }
+      ]
+    },
+    {
+      "name": "Hôtels",
+      "icon": "menu-icon tf-icons bx bx-building-house",
+      "slug": "hotels",
+      "submenu": [
+        {
+          "url": "admin/hotels/list",
+          "name": "Liste des hôtels",
+          "slug": "hotels-list"
+        },
+        {
+          "url": "admin/hotels/add",
+          "name": "Ajouter un hôtel",
+          "slug": "hotels-add"
+        }
+      ]
+    },
+    {
+      "name": "Chambres",
+      "icon": "menu-icon tf-icons bx bx-bed",
+      "slug": "admin/rooms",
+      "submenu": [
+        {
+          "url": "admin/rooms/list",
+          "name": "Liste des chambres",
+          "slug": "rooms-list"
+        },
+        {
+          "url": "admin/rooms/add",
+          "name": "Ajouter une chambre",
+          "slug": "rooms-add"
+        }
+      ]
+    },
+    {
+      "name": "Types de chambres",
+      "icon": "menu-icon tf-icons bx bx-category",
+      "slug": "room-types",
+      "submenu": [
+        {
+          "url": "admin/room-types/list",
+          "name": "Liste des types",
+          "slug": "room_types-list"
+        },
+        {
+          "url": "admin/room-types/add",
+          "name": "Ajouter un type",
+          "slug": "room_types-add"
+        }
+      ]
+    },
+    {
+      "name": "Réservations",
+      "icon": "menu-icon tf-icons bx bx-calendar",
+      "slug": "reservations",
+      "submenu": [
+        {
+          "url": "admin/reservations/list",
+          "name": "Liste des réservations",
+          "slug": "reservations-list"
+        }
+      ]
+    },
+    {
+      "name": "Avis clients",
+      "icon": "menu-icon tf-icons bx bx-star",
+      "slug": "reviews",
+      "submenu": [
+        {
+          "url": "admin/reviews/list",
+          "name": "Tous les avis",
+          "slug": "reviews-list"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Configuration"
+    },
+    {
+      "name": "Commodités",
+      "icon": "menu-icon tf-icons bx bx-gift",
+      "slug": "amenities",
+      "submenu": [
+        {
+          "url": "admin/amenities/list",
+          "name": "Liste des commodités",
+          "slug": "amenities-list"
+        },
+        {
+          "url": "admin/amenities/add",
+          "name": "Ajouter une commodité",
+          "slug": "amenities-add"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Outils"
+    },
+    {
+      "name": "Paramètres du compte",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "account-settings",
+      "submenu": [
+        {
+          "url": "admin/account/settings",
+          "name": "Général",
+          "slug": "account-settings-general"
+        }
+      ]
+    }
+  ]
+}
